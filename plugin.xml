@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
       	xmlns:android="http://schemas.android.com/apk/res/android"
-        id="nl.x-services.plugins.calendar"
+        id="genesis.plugins.calendar"
         version="1.0">
 
   <name>Calendar</name>
@@ -34,7 +34,7 @@
   <!-- android -->
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="plugins">
-      <plugin name="Calendar" value="nl.xservices.plugins.Calendar"/>
+      <plugin name="Calendar" value="genesis.plugins.Calendar"/>
     </config-file>
     <source-file src="src/android/nl/xservices/plugins/Calendar.java" target-dir="src/android/nl/xservices/plugins"/>
   </platform>
